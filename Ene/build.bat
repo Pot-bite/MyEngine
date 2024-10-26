@@ -9,7 +9,7 @@ FOR /R %%f in (* .c) do (
 )
 
 REM 
-SET assembley=engine
+SET assembley=Ene
 SET compilerFlags=-g -shared -Wvarargs -Wall -Werror
 REM
 SET incluseFlags=-Isrc -I%VULKAN_SDK%/Include
